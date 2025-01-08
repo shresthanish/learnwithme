@@ -12,20 +12,21 @@ async function loadAllQuestions() {
         const availableQuestions = [];
         let questionNumber = 1;
 
-        // Check first question
-        const firstResponse = await fetch(`${questionPath}/Question_1.json`);
-        if (!firstResponse.ok) {
-            throw new Error('No questions found');
-        }
-        availableQuestions.push(await firstResponse.json());
-
-        // Check for additional questions (2 and 3 only, since we know we have 3)
-        for (let i = 2; i <= 3; i++) {
-            const response = await fetch(`${questionPath}/Question_${i}.json`);
+        // Dynamically check for all available questions
+        while (true) {
+            const response = await fetch(`${questionPath}/Question_${questionNumber}.json`);
             if (response.ok) {
                 const data = await response.json();
                 availableQuestions.push(data);
+                questionNumber++;
+            } else {
+                // Stop when no more questions are found
+                break;
             }
+        }
+
+        if (availableQuestions.length === 0) {
+            throw new Error('No questions were found');
         }
 
         // Process the available questions
