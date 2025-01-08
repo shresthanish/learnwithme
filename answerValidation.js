@@ -72,7 +72,7 @@ document.getElementById('nextButton').addEventListener('click', () => {
     currentQuestionIndex++;
     if (currentQuestionIndex >= questions.length) {
         alert('Congratulations! You have completed all questions in this section.');
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     } else {
         loadNextQuestion();
     }
