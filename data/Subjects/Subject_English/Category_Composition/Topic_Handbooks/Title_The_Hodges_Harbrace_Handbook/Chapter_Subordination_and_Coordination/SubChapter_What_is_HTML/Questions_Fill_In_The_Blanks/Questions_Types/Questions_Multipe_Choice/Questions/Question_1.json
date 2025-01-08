@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "question_number": 1,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "Computer Science",
+    "category": "Web Programming & Design",
+    "topic": "HTML",
+    "title": "Learning HTML",
+    "chapter": "Introduction to HTML I",
+    "subchapter": "What is HTML?"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One Answer Choice",
+    "question_text": "What is the primary purpose of self-assessment tools in time management?",
+    "options": {
+      "A": "1 To improve productivity by identifying strengths and weaknesses.",
+      "B": "2 To eliminate the need for planning.",
+      "C": "3 To create a rigid schedule that cannot be changed.",
+      "D": "4 To assess the time management skills of others.",
+      "E": "5 To resolve the time management skills of others."
+    },
+    "correct_answers": ["A"],
+    "explanations": {
+      "A": "Correct! The primary purpose of self-assessment tools is to help individuals improve their productivity by identifying their strengths and weaknesses in time management.",
+      "B": "Incorrect. Self-assessment tools are not meant to eliminate planning; they enhance it by providing insights.",
+      "C": "Incorrect. These tools encourage flexible and adaptable planning, not rigid schedules.",
+      "D": "Incorrect. Self-assessment tools are designed for personal evaluation, not for assessing others.",
+      "E": "Incorrect. Self-assessment tools are designed for personal evaluation, not for assessing others."
+    },
+
+    "question_details": {
+      "difficulty_level": 2,
+      "bloom_taxonomy_level": "Understand",
+      "keywords": ["ecology", "biodiversity", "environment", "ecosystem", "global temperature"],
+      "learning_outcome": "Students will understand the concept of ecology and the role of rainforests in regulating the environment.",
+      "learning_objective": "This topic explores various methods for individuals to evaluate their own time management skills through self-assessment tools and techniques."
+    }
+  }
+}

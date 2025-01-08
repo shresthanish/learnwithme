@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "question_number": 3,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "Computer Science",
+    "category": "Web Programming & Design",
+    "topic": "HTML",
+    "title": "Learning HTML",
+    "chapter": "Introduction to HTML I",
+    "subchapter": "What is HTML?"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One or More Answer Choices",
+    "stimulus": "This is a stimulus for a test",
+    "question_stem":"Biodiversity is essential for maintaining the stability of Earth's __________. However, human activities such as __________ and __________ have significantly threatened biodiversity worldwide.",
+    "blanks": [
+      {
+        "blank_id": "blank1",
+        "options": {
+          "A": "geography",
+          "B": "climate",
+          "C": "ecosystems",
+          "D": "population"
+        },
+        "correct_answer": "C",
+        "explanations": {
+          "A": "Incorrect. Geography studies physical features, not biodiversity stability.",
+          "B": "Incorrect. Climate affects biodiversity but is not directly maintained by it.",
+          "C": "Correct! Ecosystems rely on biodiversity for stability and functioning.",
+          "D": "Incorrect. Population is not directly relevant to biodiversity stability."
+        }
+      },
+      {
+        "blank_id": "blank2",
+        "options": {
+          "E": "reforestation",
+          "F": "deforestation",
+          "G": "urbanization",
+          "H": "sustainability"
+        },
+        "correct_answer": "F",
+        "explanations": {
+          "E": "Incorrect. Reforestation helps restore ecosystems and supports biodiversity.",
+          "F": "Correct! Deforestation is a major threat to biodiversity, leading to habitat loss.",
+          "G": "Incorrect. Urbanization threatens biodiversity but is less directly tied to habitat destruction than deforestation.",
+          "H": "Incorrect. Sustainability is a goal, not a human activity threatening biodiversity."
+        }
+      },
+      {
+        "blank_id": "blank3",
+        "options": {
+          "I": "conservation efforts",
+          "J": "agriculture expansion",
+          "K": "environmental protection",
+          "L": "wildlife preservation"
+        },
+        "correct_answer": "J",
+        "explanations": {
+          "I": "Incorrect. Conservation efforts aim to protect biodiversity.",
+          "J": "Correct! Agriculture expansion often results in habitat destruction and reduced biodiversity.",
+          "K": "Incorrect. Environmental protection supports, not threatens, biodiversity.",
+          "L": "Incorrect. Wildlife preservation seeks to protect biodiversity rather than threaten it."
+        }
+      }
+    ],
+
+    "question_details": {
+      "difficulty_level": 4,
+      "bloom_taxonomy_level": "Understand",
+      "keywords": ["ecology", "biodiversity", "environment", "ecosystem", "global temperature"],
+      "learning_outcome": "Students will understand the concept of ecology and the role of rainforests in regulating the environment.",
+      "learning_objective": "This topic explores various methods for individuals to evaluate their own time management skills through self-assessment tools and techniques."
+    }
+  }
+}

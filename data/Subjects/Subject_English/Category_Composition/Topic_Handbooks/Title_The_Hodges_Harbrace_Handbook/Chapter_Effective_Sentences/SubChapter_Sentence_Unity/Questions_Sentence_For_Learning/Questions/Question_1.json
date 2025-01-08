@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "question_number": 1,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "English",
+    "category": "Composition",
+    "topic": "Handbooks",
+    "title": "The Hodges Harbrace Handbook",
+    "chapter": "Effective Sentences",
+    "subchapter": "Sentence Unity"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One or More Answer Choices",
+    "stimulus": "This is a stimulus for a test",
+    "question_stem": "Well-chosen __________ add interest and __________ to your writing.",
+    "blanks": [
+      {
+        "blank_id": "blank1",
+        "options": {
+          "A": "analogies",
+          "B": "details",
+          "C": "themes",
+          "D": "examples"
+        },
+        "correct_answer": "B",
+        "explanations": {
+          "A": "Incorrect. While analogies can add depth, they are not central to creating interest and unity in writing.",
+          "B": "Correct! Details add specificity and engagement to writing.",
+          "C": "Incorrect. Themes provide overarching ideas but do not inherently add detailed interest.",
+          "D": "Incorrect. Examples illustrate points but do not universally add interest and unity."
+        }
+      },
+      {
+        "blank_id": "blank2",
+        "options": {
+          "E": "clarity",
+          "F": "originality",
+          "G": "credibility",
+          "H": "fluidity"
+        },
+        "correct_answer": "G",
+        "explanations": {
+          "E": "Incorrect. Clarity improves comprehension but does not necessarily add unity.",
+          "F": "Incorrect. Originality makes writing unique but does not inherently provide unity.",
+          "G": "Correct! Credibility ensures the content is believable and cohesive.",
+          "H": "Incorrect. Fluidity relates to flow but not to unity in the broader sense."
+        }
+      }
+    ],
+
+    "question_details": {
+      "difficulty_level": 5,
+      "bloom_taxonomy_level": "Apply",
+      "keywords": ["details", "credibility", "sentence structure", "unity", "composition"],
+      "learning_outcome": "Students will apply the principles of sentence unity to evaluate and improve their own writing.",
+      "learning_objective": "This question assesses the ability to identify elements that enhance interest and credibility in effective sentence construction."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "question_number": 2,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "Computer Science",
+    "category": "Web Programming & Design",
+    "topic": "HTML",
+    "title": "Learning HTML",
+    "chapter": "Introduction to HTML I",
+    "subchapter": "What is HTML?"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One or More Answer Choices",
+    "stimulus": "This is a stimulus for a test",
+    "question_stem": "The rainforest is a vital part of Earth's __________. It plays a crucial role in regulating the global temperature and providing habitats for countless species of plants and animals. Without the rainforest, life on Earth would be drastically affected. One of the most significant threats to the rainforest is __________.",
+    "blanks": [
+      {
+        "blank_id": "blank1",
+        "options": {
+          "A": "biodiversity",
+          "B": "ecology",
+          "C": "geography",
+          "D": "environment"
+        },
+        "correct_answer": "B",
+        "explanations": {
+          "A": "Incorrect. Biodiversity refers to the variety of life but does not encompass the broader study of interactions.",
+          "B": "Correct! Ecology studies the relationships between organisms and their environment, which the rainforest exemplifies.",
+          "C": "Incorrect. Geography deals with Earth's physical features but does not emphasize ecological roles.",
+          "D": "Incorrect. The environment is too broad to fit the specific role described here."
+        }
+      },
+      {
+        "blank_id": "blank2",
+        "options": {
+          "E": "conservation",
+          "F": "pollution",
+          "G": "deforestation",
+          "H": "migration"
+        },
+        "correct_answer": "G",
+        "explanations": {
+          "E": "Incorrect. Conservation is an approach to preserving rainforests, not a threat to them.",
+          "F": "Incorrect. Pollution affects ecosystems, but deforestation is a direct threat to rainforests.",
+          "G": "Correct! Deforestation is one of the leading causes of rainforest destruction.",
+          "H": "Incorrect. Migration is not directly related to the destruction of rainforests."
+        }
+      }
+    ],
+
+    "question_details": {
+      "difficulty_level": 4,
+      "bloom_taxonomy_level": "Understand",
+      "keywords": ["ecology", "biodiversity", "environment", "ecosystem", "global temperature"],
+      "learning_outcome": "Students will understand the concept of ecology and the role of rainforests in regulating the environment.",
+      "learning_objective": "This topic explores various methods for individuals to evaluate their own time management skills through self-assessment tools and techniques."
+    }
+  }
+}
