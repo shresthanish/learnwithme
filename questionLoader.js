@@ -69,7 +69,7 @@ function displayErrorMessage(message) {
         <div style="color: red; padding: 20px;">
             <h3>Error Loading Questions</h3>
             <p>${message}</p>
-            <p><a href="home.html">Return to Selection Page</a></p>
+            <p><a href="index.html">Return to Selection Page</a></p>
         </div>
     `;
 }
