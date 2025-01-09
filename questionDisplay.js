@@ -34,12 +34,25 @@ function loadNextQuestion() {
     const resultMessage = document.getElementById('result-message');
     const submitButton = document.getElementById('submitButton');
     const questionNumberElement = document.getElementById('question-number');
+    const previousButton = document.getElementById('previousButton');
+    const nextButton = document.getElementById('nextButton');
 
     // Reset UI
     resultMessage.innerHTML = '';
     resultMessage.className = '';
     submitButton.style.display = 'block';
-    document.getElementById('nextButton').style.display = 'none';
+    nextButton.style.display = 'none';
+
+    // Logic for showing/hiding "Previous Question" button
+    if (currentQuestionIndex === 0) {
+        previousButton.style.display = 'none'; // Hide "Previous Question" on the first question
+    } else if (currentQuestionIndex === questions.length - 1) {
+        previousButton.style.display = 'inline-block'; // Show "Previous Question" on the last question
+        nextButton.style.display = 'none'; // Hide "Next Question" on the last question
+    } else {
+        previousButton.style.display = 'inline-block'; // Show "Previous Question" for all other cases
+    }
+
     choicesContainer.style.display = 'none';
     selectedChoices = {};
     isAnsweredCorrectly = false;
@@ -78,7 +91,7 @@ function loadNextQuestion() {
         });
 
         // Replace all blanks in order
-        replacements.forEach(({original, replacement}) => {
+        replacements.forEach(({ original, replacement }) => {
             completedQuestion = completedQuestion.replace(original, replacement);
         });
 
@@ -119,7 +132,6 @@ function loadNextQuestion() {
 
     // Save state after loading question
     saveCurrentState();
-
 }
 
 function showChoices(event, blankKey) {
@@ -184,3 +196,22 @@ function shuffleChoices(options, shouldShuffle = true) {
     });
     return shuffled;
 }
+
+// Event listener for "Next Question" button
+document.getElementById('nextButton').addEventListener('click', () => {
+    currentQuestionIndex++;
+    if (currentQuestionIndex >= questions.length) {
+        alert('Congratulations! You have completed all questions in this section.');
+        window.location.href = 'index.html';
+    } else {
+        loadNextQuestion();
+    }
+});
+
+// Event listener for "Previous Question" button
+document.getElementById('previousButton').addEventListener('click', () => {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        loadNextQuestion();
+    }
+});
