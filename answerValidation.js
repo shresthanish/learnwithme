@@ -51,6 +51,9 @@ document.getElementById('submitButton').addEventListener('click', () => {
 
         submitButton.style.display = 'none';
         document.getElementById('nextButton').style.display = 'inline-block';
+        if (nextButton.style.display === 'inline-block') { // show "Next Question" on the last question
+            previousButton.style.display = 'none'; // hide "Previous Question" for all other cases
+        }
 
         // Save current state
         saveCurrentState();
@@ -65,15 +68,5 @@ document.getElementById('submitButton').addEventListener('click', () => {
         if (window.MathJax) {
             MathJax.typesetPromise([resultMessage]);
         }
-    }
-});
-
-document.getElementById('nextButton').addEventListener('click', () => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex >= questions.length) {
-        alert('Congratulations! You have completed all questions in this section.');
-        window.location.href = 'index.html';
-    } else {
-        loadNextQuestion();
     }
 });
