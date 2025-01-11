@@ -150,8 +150,10 @@ body {
     background-color: #FFFF00;
     display: inline-block;
     justify-content: center; /* Adjusts spacing dynamically */
-    padding: 0.1rem;
-    margin: 0.1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     border-radius: 0.2rem;
 }
 
@@ -167,8 +169,10 @@ body {
     background-color: #FFD9B3;
     display: inline-block;
     justify-content: center; /* Adjusts spacing dynamically */
-    padding: 0.1rem;
-    margin: 0.1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     border-radius: 0.2rem;
     color: inherit;
 }
@@ -180,8 +184,10 @@ body {
     background-color: #4CAF50;
     display: inline-block;
     justify-content: center; /* Adjusts spacing dynamically */
-    padding: 0.1rem;
-    margin: 0.1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     border-radius: 0.2rem;
     cursor: auto;
 }
