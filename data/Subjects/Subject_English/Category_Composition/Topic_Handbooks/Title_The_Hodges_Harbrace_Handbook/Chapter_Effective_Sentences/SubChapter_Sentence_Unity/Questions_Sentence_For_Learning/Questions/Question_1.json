@@ -18,49 +18,54 @@
   "question": {
     "question_type": "Multiple Choice",
     "question_subtype": "Select One or More Answer Choices",
-    "stimulus": "This is a stimulus for a test",
-    "question_stem": "Well-chosen __________ add interest and __________ to your writing.",
+    "stimulus": "A sentence about effective writing techniques",
+    "question_stem": "Well-chosen __________ add __________ and credibility to your writing.",
     "blanks": [
       {
         "blank_id": "blank1",
         "options": {
-          "A": "analogies",
-          "B": "details",
-          "C": "themes",
-          "D": "examples"
+          "A": "details",
+          "B": "metaphors",
+          "C": "paragraphs",
+          "D": "arguments"
         },
-        "correct_answer": "B",
+        "correct_answer": "A",
         "explanations": {
-          "A": "Incorrect. While analogies can add depth, they are not central to creating interest and unity in writing.",
-          "B": "Correct! Details add specificity and engagement to writing.",
-          "C": "Incorrect. Themes provide overarching ideas but do not inherently add detailed interest.",
-          "D": "Incorrect. Examples illustrate points but do not universally add interest and unity."
+          "A": "Correct! Details provide specific, concrete information that enhances the depth and believability of writing.",
+          "B": "Incorrect. Metaphors can add color, but they do not universally add substantive interest.",
+          "C": "Incorrect. Paragraphs are structural elements, not sources of interest themselves.",
+          "D": "Incorrect. Arguments provide logical reasoning but do not inherently create interest."
         }
       },
       {
         "blank_id": "blank2",
         "options": {
-          "E": "clarity",
-          "F": "originality",
-          "G": "credibility",
-          "H": "fluidity"
+          "E": "interest",
+          "F": "complexity",
+          "G": "length",
+          "H": "formality"
         },
-        "correct_answer": "G",
+        "correct_answer": "E",
         "explanations": {
-          "E": "Incorrect. Clarity improves comprehension but does not necessarily add unity.",
-          "F": "Incorrect. Originality makes writing unique but does not inherently provide unity.",
-          "G": "Correct! Credibility ensures the content is believable and cohesive.",
-          "H": "Incorrect. Fluidity relates to flow but not to unity in the broader sense."
+          "E": "Correct! Interest captures the reader's attention and makes the writing engaging.",
+          "F": "Incorrect. Complexity does not necessarily make writing more compelling.",
+          "G": "Incorrect. Length alone does not improve the quality of writing.",
+          "H": "Incorrect. Formality does not directly contribute to the writing's appeal."
         }
       }
     ],
-
     "question_details": {
       "difficulty_level": 5,
-      "bloom_taxonomy_level": "Apply",
-      "keywords": ["details", "credibility", "sentence structure", "unity", "composition"],
-      "learning_outcome": "Students will apply the principles of sentence unity to evaluate and improve their own writing.",
-      "learning_objective": "This question assesses the ability to identify elements that enhance interest and credibility in effective sentence construction."
+      "bloom_taxonomy_level": "Analyze",
+      "keywords": [
+        "writing techniques",
+        "details",
+        "interest",
+        "credibility",
+        "composition"
+      ],
+      "learning_outcome": "Students will critically evaluate the elements that enhance writing quality and engagement.",
+      "learning_objective": "Assess the ability to identify and understand the role of specific writing components in creating effective, compelling prose."
     }
   }
 }

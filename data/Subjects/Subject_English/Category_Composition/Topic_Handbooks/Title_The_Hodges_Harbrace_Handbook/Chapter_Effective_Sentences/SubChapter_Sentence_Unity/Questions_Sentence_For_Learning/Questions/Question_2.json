@@ -7,60 +7,75 @@
   },
 
   "context": {
-    "subject": "Computer Science",
-    "category": "Web Programming & Design",
-    "topic": "HTML",
-    "title": "Learning HTML",
-    "chapter": "Introduction to HTML I",
-    "subchapter": "What is HTML?"
+    "subject": "English",
+    "category": "Composition",
+    "topic": "Handbooks",
+    "title": "The Hodges Harbrace Handbook",
+    "chapter": "Effective Sentences",
+    "subchapter": "Sentence Unity"
   },
 
   "question": {
     "question_type": "Multiple Choice",
     "question_subtype": "Select One or More Answer Choices",
     "stimulus": "This is a stimulus for a test",
-    "question_stem": "The rainforest is a vital part of Earth's __________. It plays a crucial role in regulating the global temperature and providing habitats for countless species of plants and animals. Without the rainforest, life on Earth would be drastically affected. One of the most significant threats to the rainforest is __________.",
+    "question_stem": "As you revise, you may occasionally notice a sentence that would be clearer and more believable with the addition of a phrase or two about __________, __________, or __________.",
     "blanks": [
       {
         "blank_id": "blank1",
         "options": {
-          "A": "biodiversity",
-          "B": "ecology",
-          "C": "geography",
-          "D": "environment"
+          "A": "tone",
+          "B": "time",
+          "C": "setting",
+          "D": "characters"
         },
         "correct_answer": "B",
         "explanations": {
-          "A": "Incorrect. Biodiversity refers to the variety of life but does not encompass the broader study of interactions.",
-          "B": "Correct! Ecology studies the relationships between organisms and their environment, which the rainforest exemplifies.",
-          "C": "Incorrect. Geography deals with Earth's physical features but does not emphasize ecological roles.",
-          "D": "Incorrect. The environment is too broad to fit the specific role described here."
+          "A": "Incorrect. Tone may affect a sentence but isn't directly related to making it clearer with additional phrases.",
+          "B": "Correct! Time is often needed to provide context and improve clarity in a sentence.",
+          "C": "Incorrect. Setting can be a factor but does not necessarily make a sentence clearer in the context provided.",
+          "D": "Incorrect. Characters, while important in storytelling, are not directly relevant to the clarity of the sentence in this case."
         }
       },
       {
         "blank_id": "blank2",
         "options": {
-          "E": "conservation",
-          "F": "pollution",
-          "G": "deforestation",
-          "H": "migration"
+          "E": "place",
+          "F": "location",
+          "G": "duration",
+          "H": "theme"
         },
-        "correct_answer": "G",
+        "correct_answer": "F",
         "explanations": {
-          "E": "Incorrect. Conservation is an approach to preserving rainforests, not a threat to them.",
-          "F": "Incorrect. Pollution affects ecosystems, but deforestation is a direct threat to rainforests.",
-          "G": "Correct! Deforestation is one of the leading causes of rainforest destruction.",
-          "H": "Incorrect. Migration is not directly related to the destruction of rainforests."
+          "E": "Incorrect. Place and location are related but location is more fitting in this context for clarity.",
+          "F": "Correct! Location can give additional context to a sentence and make it clearer.",
+          "G": "Incorrect. Duration may be relevant, but location is the best choice here for improving clarity.",
+          "H": "Incorrect. Theme is a broad concept that does not directly relate to the sentence's clarity."
+        }
+      },
+      {
+        "blank_id": "blank3",
+        "options": {
+          "I": "context",
+          "J": "cause",
+          "K": "motive",
+          "L": "effect"
+        },
+        "correct_answer": "J",
+        "explanations": {
+          "I": "Incorrect. Context is broad and doesn't directly impact clarity as cause does in this case.",
+          "J": "Correct! Cause helps explain the reasoning behind events, making a sentence more credible and clear.",
+          "K": "Incorrect. Motive is more specific and not directly related to the clarity of the sentence in this context.",
+          "L": "Incorrect. Effect could clarify a sentence but cause is a more relevant choice."
         }
       }
     ],
-
     "question_details": {
       "difficulty_level": 4,
-      "bloom_taxonomy_level": "Understand",
-      "keywords": ["ecology", "biodiversity", "environment", "ecosystem", "global temperature"],
-      "learning_outcome": "Students will understand the concept of ecology and the role of rainforests in regulating the environment.",
-      "learning_objective": "This topic explores various methods for individuals to evaluate their own time management skills through self-assessment tools and techniques."
+      "bloom_taxonomy_level": "Analyze",
+      "keywords": ["sentence structure", "revision", "clarity", "context", "cause and effect"],
+      "learning_outcome": "Students will develop an understanding of how additional context and information can improve the clarity and believability of a sentence.",
+      "learning_objective": "This topic explores the role of revising sentences by adding relevant details to improve clarity and meaning."
     }
   }
 }

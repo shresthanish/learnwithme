@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "question_number": 4,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "English",
+    "category": "Composition",
+    "topic": "Handbooks",
+    "title": "The Hodges Harbrace Handbook",
+    "chapter": "Effective Sentences",
+    "subchapter": "Sentence Unity"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One or More Answer Choices",
+    "stimulus": "This is a stimulus for a test",
+    "question_stem": "<br><br>Besides choosing __________ purposefully, you also need to indicate a clear connection between the __________ and the main idea of your sentence. <br><br><b>Unrelated</b>: Many tigers facing possible extinction live in India, <b>where there are many people.</b> <br> <b>Related</b>: Many tigers facing possible extinction live in India, <b>where their natural habitat is shrinking because of population pressure.</b>",
+    "blanks": [
+      {
+        "blank_id": "blank1",
+        "options": {
+          "A": "examples",
+          "B": "details",
+          "C": "themes",
+          "D": "analogies"
+        },
+        "correct_answer": "B",
+        "explanations": {
+          "A": "Incorrect. Examples are used to illustrate points but are not as essential as details in structuring sentences.",
+          "B": "Correct! Details are integral to building and supporting the main idea of a sentence.",
+          "C": "Incorrect. Themes are overarching concepts but do not directly relate to the sentence structure in this context.",
+          "D": "Incorrect. Analogies help in making comparisons but do not necessarily provide the connection to the main idea."
+        }
+      },
+      {
+        "blank_id": "blank2",
+        "options": {
+          "E": "theme",
+          "F": "examples",
+          "G": "details",
+          "H": "language"
+        },
+        "correct_answer": "G",
+        "explanations": {
+          "E": "Incorrect. Themes are not directly tied to the details of a sentence in this context.",
+          "F": "Incorrect. Examples are illustrations, but the question asks for the broader connection to the main idea.",
+          "G": "Correct! Details serve as the building blocks of a sentence and must connect clearly to the main idea.",
+          "H": "Incorrect. While language is important, it does not directly refer to the connection between the main idea and details."
+        }
+      }
+    ],
+    "question_details": {
+      "difficulty_level": 4,
+      "bloom_taxonomy_level": "Apply",
+      "keywords": ["sentence structure", "details", "main idea", "writing", "clarity"],
+      "learning_outcome": "Students will apply principles of sentence construction to enhance clarity and coherence in writing.",
+      "learning_objective": "This question assesses the ability to identify key elements that strengthen sentence structure and logical flow."
+    }
+  }
+}

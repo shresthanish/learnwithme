@@ -7,76 +7,43 @@
   },
 
   "context": {
-    "subject": "Computer Science",
-    "category": "Web Programming & Design",
-    "topic": "HTML",
-    "title": "Learning HTML",
-    "chapter": "Introduction to HTML I",
-    "subchapter": "What is HTML?"
+    "subject": "English",
+    "category": "Composition",
+    "topic": "Handbooks",
+    "title": "The Hodges Harbrace Handbook",
+    "chapter": "Effective Sentences",
+    "subchapter": "Sentence Unity"
   },
 
   "question": {
     "question_type": "Multiple Choice",
     "question_subtype": "Select One or More Answer Choices",
     "stimulus": "This is a stimulus for a test",
-    "question_stem":"Biodiversity is essential for maintaining the stability of Earth's __________. However, human activities such as __________ and __________ have significantly threatened biodiversity worldwide.",
+    "question_stem": " <br><br> <b> Missing important detail</b>: An astrophysicist from the Harvard-Smithsonian Center has predicted a galactic storm. <br><b>With detail added</b>: An astrophysicist from the Harvard-Smithsonian Center has predicted <b>that</b> a galactic storm <b>will occur within the next 10 million years.</b> <br><br>Without the additional information about __________, most readers would wonder when the storm was supposed to occur. The added detail makes the sentence clearer.",
     "blanks": [
       {
         "blank_id": "blank1",
         "options": {
-          "A": "geography",
-          "B": "climate",
-          "C": "ecosystems",
-          "D": "population"
+          "A": "place",
+          "B": "time",
+          "C": "reason",
+          "D": "magnitude"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "explanations": {
-          "A": "Incorrect. Geography studies physical features, not biodiversity stability.",
-          "B": "Incorrect. Climate affects biodiversity but is not directly maintained by it.",
-          "C": "Correct! Ecosystems rely on biodiversity for stability and functioning.",
-          "D": "Incorrect. Population is not directly relevant to biodiversity stability."
-        }
-      },
-      {
-        "blank_id": "blank2",
-        "options": {
-          "E": "reforestation",
-          "F": "deforestation",
-          "G": "urbanization",
-          "H": "sustainability"
-        },
-        "correct_answer": "F",
-        "explanations": {
-          "E": "Incorrect. Reforestation helps restore ecosystems and supports biodiversity.",
-          "F": "Correct! Deforestation is a major threat to biodiversity, leading to habitat loss.",
-          "G": "Incorrect. Urbanization threatens biodiversity but is less directly tied to habitat destruction than deforestation.",
-          "H": "Incorrect. Sustainability is a goal, not a human activity threatening biodiversity."
-        }
-      },
-      {
-        "blank_id": "blank3",
-        "options": {
-          "I": "conservation efforts",
-          "J": "agriculture expansion",
-          "K": "environmental protection",
-          "L": "wildlife preservation"
-        },
-        "correct_answer": "J",
-        "explanations": {
-          "I": "Incorrect. Conservation efforts aim to protect biodiversity.",
-          "J": "Correct! Agriculture expansion often results in habitat destruction and reduced biodiversity.",
-          "K": "Incorrect. Environmental protection supports, not threatens, biodiversity.",
-          "L": "Incorrect. Wildlife preservation seeks to protect biodiversity rather than threaten it."
+          "A": "Incorrect. Place provides context but doesn't directly address when the event will occur.",
+          "B": "Correct! Time is crucial in this case to clarify when the galactic storm will occur.",
+          "C": "Incorrect. Reason could explain why the event will happen but doesn't address the timing aspect.",
+          "D": "Incorrect. Magnitude might describe the scale of the event but does not clarify the time frame."
         }
       }
     ],
-
     "question_details": {
       "difficulty_level": 4,
-      "bloom_taxonomy_level": "Understand",
-      "keywords": ["ecology", "biodiversity", "environment", "ecosystem", "global temperature"],
-      "learning_outcome": "Students will understand the concept of ecology and the role of rainforests in regulating the environment.",
-      "learning_objective": "This topic explores various methods for individuals to evaluate their own time management skills through self-assessment tools and techniques."
+      "bloom_taxonomy_level": "Analyze",
+      "keywords": ["sentence structure", "clarity", "time", "astrophysics", "event prediction"],
+      "learning_outcome": "Students will understand how adding temporal details can enhance clarity and make predictions in sentences more understandable.",
+      "learning_objective": "This topic focuses on the importance of adding time-related information to improve the precision and readability of sentences."
     }
   }
 }

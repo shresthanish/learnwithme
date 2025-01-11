@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "question_number": 4,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "English",
+    "category": "Composition",
+    "topic": "Handbooks",
+    "title": "The Hodges Harbrace Handbook",
+    "chapter": "Effective Sentences",
+    "subchapter": "Sentence Unity"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One or More Answer Choices",
+    "stimulus": "This is a stimulus for a test",
+    "question_stem": "The writer of the following sentence deleted the mention of her uncle as she revised because this information was __________ to the main idea of her essay. <br><br> When I was only sixteen, I left home to attend a college in California <s>that my uncle had graduated from twenty years earlier</s>.",
+    "blanks": [
+      {
+        "blank_id": "blank1",
+        "options": {
+          "A": "critical",
+          "B": "incidental",
+          "C": "irrelevant",
+          "D": "necessary"
+        },
+        "correct_answer": "C",
+        "explanations": {
+          "A": "Incorrect. 'Critical' implies that the information is very important, which is not the case here.",
+          "B": "Incorrect. 'Incidental' suggests the information is minor but still related, while it's stated as irrelevant.",
+          "C": "Correct! The mention of the uncle is irrelevant to the main idea of the essay, so the writer deleted it.",
+          "D": "Incorrect. 'Necessary' would imply that the information was essential, which contradicts the revision described."
+        }
+      }
+    ],
+    "question_details": {
+      "difficulty_level": 3,
+      "bloom_taxonomy_level": "Analyze",
+      "keywords": ["relevance", "essay revision", "main idea", "information"],
+      "learning_outcome": "Students will understand the importance of maintaining focus on the main idea when revising an essay.",
+      "learning_objective": "This question assesses the ability to identify irrelevant information in an essay and understand the revision process."
+    }
+  }
+}

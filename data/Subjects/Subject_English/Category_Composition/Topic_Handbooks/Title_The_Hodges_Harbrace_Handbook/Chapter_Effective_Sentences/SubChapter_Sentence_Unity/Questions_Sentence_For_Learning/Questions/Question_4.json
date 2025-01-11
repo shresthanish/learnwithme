@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "question_number": 4,
+    "created_by": "John Doe",
+    "date_created": "2024-11-26",
+    "last_updated": "2024-11-26"
+  },
+
+  "context": {
+    "subject": "English",
+    "category": "Composition",
+    "topic": "Handbooks",
+    "title": "The Hodges Harbrace Handbook",
+    "chapter": "Effective Sentences",
+    "subchapter": "Sentence Unity"
+  },
+
+  "question": {
+    "question_type": "Multiple Choice",
+    "question_subtype": "Select One or More Answer Choices",
+    "stimulus": "This is a stimulus for a test",
+    "question_stem": "<br><br>The __________ you choose will help your readers __________ your message. If you provide too many __________ within a single sentence, though, your readers may lose sight of your main point.",
+    "blanks": [
+      {
+        "blank_id": "blank1",
+        "options": {
+          "A": "examples",
+          "B": "themes",
+          "C": "details",
+          "D": "analogies"
+        },
+        "correct_answer": "C",
+        "explanations": {
+          "A": "Incorrect. Examples help illustrate points, but details are more crucial for conveying your message clearly.",
+          "B": "Incorrect. Themes are the underlying messages or ideas in a work but are not as specific to the structure of a sentence.",
+          "C": "Correct! Details add depth and specificity to your writing, making it easier for readers to understand.",
+          "D": "Incorrect. Analogies provide comparisons but do not convey detailed information the way details do."
+        }
+      },
+      {
+        "blank_id": "blank2",
+        "options": {
+          "E": "emphasize",
+          "F": "lose",
+          "G": "understand",
+          "H": "ignore"
+        },
+        "correct_answer": "G",
+        "explanations": {
+          "E": "Incorrect. Emphasize is related to highlighting but does not directly relate to how readers interpret your message.",
+          "F": "Incorrect. Losing sight of the main point happens when there are too many details, not when choosing details.",
+          "G": "Correct! The goal of details is to help readers understand the message clearly.",
+          "H": "Incorrect. Ignoring would indicate a lack of attention, which is not the intended purpose of details in writing."
+        }
+      },
+      {
+        "blank_id": "blank3",
+        "options": {
+          "I": "details",
+          "J": "examples",
+          "K": "themes",
+          "L": "analogies"
+        },
+        "correct_answer": "I",
+        "explanations": {
+          "I": "Correct! Too many details in a sentence can overwhelm the reader and obscure the main point.",
+          "J": "Incorrect. Examples support ideas, but too many of them also don't obscure the main point as much as excessive details do.",
+          "K": "Incorrect. Themes are broader concepts and less specific to the structure of a sentence in this context.",
+          "L": "Incorrect. Analogies are used to explain ideas but aren't the main focus of this particular issue."
+        }
+      }
+    ],
+    "question_details": {
+      "difficulty_level": 5,
+      "bloom_taxonomy_level": "Apply",
+      "keywords": ["writing", "details", "message", "clarity", "sentence structure"],
+      "learning_outcome": "Students will apply the principles of clarity and conciseness in writing.",
+      "learning_objective": "This topic explores how to choose the appropriate amount of detail to improve the effectiveness of written communication."
+    }
+  }
+}
