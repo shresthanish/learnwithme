@@ -25,7 +25,7 @@ function sanitizePath(str) {
     return str.replace(/\s*&\s*/g, '_and_')
         .replace(/\s+/g, '_')
         .replace(/\?/g, '')  // Remove question marks
-        .replace(/[^a-zA-Z0-9_]/g, '_'); // Replace other special characters with underscore
+        .replace(/[^a-zA-Z0-9_-]/g, '_'); // Replace other special characters with underscore, except hyphen
 }
 
 function getJsonPath() {
